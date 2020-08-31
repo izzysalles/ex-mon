@@ -13,8 +13,8 @@ ExMon is a turn-based pokemon game made with Elixir. This is a project from a El
 
 - Each round, each one can make one of the 3 moves:
 
-👉 Moderate attack that does between (18-25) damage;
-👉 Varied attack that deals between (10-35) damage;
-👉 Healing power, healing between (18-25) life.
+  - Moderate attack that does between (18-25) damage;
+  - Varied attack that deals between (10-35) damage;
+  - Healing power, healing between (18-25) life.
 
 - If the player or the computer has 0 health, the game is over. 💥
