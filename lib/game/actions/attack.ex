@@ -1,5 +1,4 @@
 defmodule ExMon.Game.Actions.Attack do
-
   alias ExMon.Game
   alias ExMon.Game.Status
 
@@ -26,7 +25,7 @@ defmodule ExMon.Game.Actions.Attack do
     opponent
     |> Game.fetch_player()
     |> Map.put(:life, life)
-    |> update_game(opponent)
+    |> update_game(opponent, damage)
   end
 
   defp update_game(player, opponent, damage) do
