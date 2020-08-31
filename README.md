@@ -1,21 +1,20 @@
-# ExMon
+<p align="center">
+  <img ![exmon](img src="https://user-images.githubusercontent.com/55500140/91770056-e19d9e80-ebb6-11ea-926b-044d6638f6e7.png")/>
+</p>
 
-**TODO: Add description**
 
-## Installation
+## Introduction
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_mon` to your list of dependencies in `mix.exs`:
+ExMon is a turn-based pokemon game made with Elixir. This is a project from a Elixir's [Udemy course](https://www.udemy.com/course/elixir-e-phoenix-do-zero). :books:
+ 
+ ## How it works
+ 
+- The human and the computer starts with 100 health points. 
 
-```elixir
-def deps do
-  [
-    {:ex_mon, "~> 0.1.0"}
-  ]
-end
-```
+- Each round, each one can make one of the 3 moves:
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ex_mon](https://hexdocs.pm/ex_mon).
+👉 Moderate attack that does between (18-25) damage;
+👉 Varied attack that deals between (10-35) damage;
+👉 Healing power, healing between (18-25) life.
 
+- If the player or the computer has 0 health, the game is over. 💥
